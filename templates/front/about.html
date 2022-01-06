@@ -1,0 +1,28 @@
+{% extends 'front/base.html' %} {% load static %} {% block content %}
+<div class="wrapper">
+    <div class="profile-content section">
+        <div class="container">
+            <div class="row">
+                <div class="profile-picture">
+                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                        <br></br>
+                        <div class="fileinput-new img-no-padding">
+                            <img src="{% static 'front/img/faces/Wahid.jpeg' %}" alt="...">
+                        </div>
+                        <div class="name">
+                            <h4 class="title text-center">Muhammad Nor Wahid<br /><small>1911102441092</small></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p>Mahasiswa Universitas MuhammadDiyah Kalimantan Timur angkatan tahun 2019 Teknik Informatika </p>
+                    <br />
+                </div>
+            </div>
+            <br />
+        </div>
+    </div>
+</div>
+{% endblock content %}
